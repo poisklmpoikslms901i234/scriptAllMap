@@ -48,9 +48,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i23
 elseif PlaceId == 2788229376 then
     
   loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptAutoFarmDahoodPoomHubFree/main/.Lua"))() 
-  
+elseif PlaceId == 6492279150 then
+ pcall(function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTwoPlayerObbyFree/main/.Lua"))()
+end)
  else
-     	game.Players.LocalPlayer:kick("เกมนี้ยังไม่ได้ทำ ยังเสือกโง่รันอีก สัส")
+     	game.Players.LocalPlayer:kick("No Map")
 	wait(1)
 	game:Shutdown()
 end
