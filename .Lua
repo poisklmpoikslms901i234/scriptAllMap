@@ -51,6 +51,8 @@ elseif PlaceId == 2788229376 then
 elseif PlaceId == 6492279150 then
  pcall(function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTwoPlayerObbyFree/main/.Lua"))()
+elseif PlaceId == 1240123653 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptZombieForfree/main/.Lua"))()
 end)
  else
      	game.Players.LocalPlayer:kick("No Map")
