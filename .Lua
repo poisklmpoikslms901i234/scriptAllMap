@@ -49,8 +49,7 @@ elseif PlaceId == 2788229376 then
     
   loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptAutoFarmDahoodPoomHubFree/main/.Lua"))() 
 elseif PlaceId == 6492279150 then
- pcall(function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTwoPlayerObbyFree/main/.Lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTwoPlayerObbyFree/main/.Lua"))()
 elseif PlaceId == 1240123653 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptZombieForfree/main/.Lua"))()
 
